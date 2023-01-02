@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pretvaranje valuta</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <h1>Pretvaranje valuta</h1>
+  <form>
+    <label for="amount">Iznos:</label><br>
+    <input type="text" id="amount" name="amount"><br>
+    <label for="currency">Valuta:</label><br>
+    <select id="currency" name="currency">
+      <option value="eur">EUR</option>
+      <option value="hrk">HRK</option>
+    </select>
+    <br><br>
+    <input type="button" value="Pretvori" onclick="convertCurrency()">
+  </form> 
+  <br>
+  <p id="result"></p>
+  
+
+  <script src="js/main.js"></script>
+</body>
+  
+</html>

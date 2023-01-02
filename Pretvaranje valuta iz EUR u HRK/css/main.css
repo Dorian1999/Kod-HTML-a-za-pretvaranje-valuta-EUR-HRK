@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  /* Stilovi za polje za unos teksta */
+  input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  /* Stilovi za padajući izbornik */
+  select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  /* Stilovi za gumb */
+  input[type=button] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Stilovi za rezultat */
+  #result {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
